@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    text-align: center;
+    height: auto;
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+.Heading{
+font-size: 60px;
+}
+.Headingdown{
+    margin-top: 10px;
+}
+.scors{
+    font-size: 25px;
+    height: 20vh ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.choice{
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.computer-hand{
+    width: 200px;
+    transform: rotate(-90deg);
+}
+.user-hand{
+    width: 200px;
+    transform: rotate(90deg);
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+.btn{
+    margin-top: 90px;
+    width: 150px;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: coral;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Result{
+    padding: 50px;
+    font-size: 20px;
+}
+.btn-res{
+    width: 150px;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: coral;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width: 610px){
+    .Heading{
+        font-size: 30px;
+    }
+    .scors{
+        font-size: 13px;
+    }
+    .Result{
+        font-size: 12px;
+    }
+    .user-hand{
+        width: 130px;
+    }
+    .computer-hand{
+        width: 130px;
+        margin-top: 2px;
+    }
+    .btn{
+        margin-top: 30px;
+    }
+    .Headingdown{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+     }
+     
+
+
+
+
+
